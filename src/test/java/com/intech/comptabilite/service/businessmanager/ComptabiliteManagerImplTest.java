@@ -2,6 +2,8 @@ package com.intech.comptabilite.service.businessmanager;
 
 import java.math.BigDecimal;
 import java.util.Date;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -86,5 +88,30 @@ public class ComptabiliteManagerImplTest {
         );
                 
     }
+    
+    
+//    @Test
+//    public void testCheckEcritureComptableContextRG6() throws Exception {
+//    	EcritureComptable vEcritureComptable;
+//    	vEcritureComptable = new EcritureComptable();
+//        vEcritureComptable.setReference("32-4444-22223");
+//        
+//        EcritureComptable vEcritureComptable2;
+//    	vEcritureComptable2 = new EcritureComptable();
+//        vEcritureComptable2.setReference("32-4444-22223");
+//        
+        
+        
+//        manager.checkEcritureComptableContext(vEcritureComptable);
+        
+        
+//        Assertions.assertThrows(FunctionalException.class,
+//        		() -> {
+//        			manager.checkEcritureComptableContext(vEcritureComptable2);
+//        		}
+//        );
+        
+        // abandonné, Trop compliqué
+//    }
 
 }

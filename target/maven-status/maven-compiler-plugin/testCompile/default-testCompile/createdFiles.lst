@@ -1,0 +1,3 @@
+com\intech\comptabilite\ComptabiliteApplicationTests.class
+com\intech\comptabilite\service\businessmanager\ComptabiliteManagerImplTest.class
+com\intech\comptabilite\service\entityservice\EcritureComptableServiceTest.class
